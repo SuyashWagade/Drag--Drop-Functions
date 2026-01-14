@@ -1,35 +1,27 @@
 import { useState } from "react";
-import { fruits } from "./data/fruits";
-import FruitButton from "./components/FruitButton";
-import DropBox from "./components/DropBox";
+import HeaderFruits from "./components/HeaderFruits";
+import DropZone from "./components/DropZone";
 import FruitDetails from "./components/FruitDetails";
 
-function App() {
+export default function App() {
+  const [droppedFruits, setDroppedFruits] = useState([]);
   const [selectedFruit, setSelectedFruit] = useState(null);
 
-  const handleDrop = (e) => {
-    const fruit = JSON.parse(e.dataTransfer.getData("fruit"));
-    setSelectedFruit(fruit);
-  };
-
   return (
-    <div className="min-h-screen bg-gray-900 text-white p-8">
+    <div className="min-h-screen bg-gradient-to-br from-black via-gray-900 to-black text-white p-6 space-y-6">
+      
+      <HeaderFruits />
 
-      {/* Top Buttons */}
-      <div className="flex flex-wrap gap-4 mb-12">
-        {fruits.map((fruit) => (
-          <FruitButton key={fruit.id} fruit={fruit} />
-        ))}
-      </div>
+      <div className="flex flex-col lg:flex-row gap-6 justify-center items-start">
+        <DropZone
+          droppedFruits={droppedFruits}
+          setDroppedFruits={setDroppedFruits}
+          setSelectedFruit={setSelectedFruit}
+        />
 
-      {/* Main Section */}
-      <div className="flex gap-16">
-        <DropBox fruit={selectedFruit} onDrop={handleDrop} />
         <FruitDetails fruit={selectedFruit} />
       </div>
-
     </div>
   );
 }
 
-export default App;
