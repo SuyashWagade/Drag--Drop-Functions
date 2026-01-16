@@ -1,0 +1,102 @@
+stack:
+  - id: 3
+    name: Orange
+    class: orange
+    colour: Orange
+    speciality: Vitamin C rich
+    image: /src/assets/orange.png
+    instanceId: 271e3a0d-97f0-4c80-9f76-6103ccd8b046
+    comments: []
+  - id: 5
+    name: Kiwi
+    class: kiwi
+    colour: Green
+    speciality: Boosts immunity
+    image: /src/assets/kiwi.png
+    instanceId: 328b74be-4db3-48d8-8ddc-6b00b85ade18
+    comments: []
+  - id: 4
+    name: Banana
+    class: banana
+    colour: Yellow
+    speciality: High potassium
+    image: /src/assets/banana.png
+    instanceId: a67be146-ee2d-47d1-be6d-534218c75b6b
+    comments: []
+  - id: 5
+    name: Kiwi
+    class: kiwi
+    colour: Green
+    speciality: Boosts immunity
+    image: /src/assets/kiwi.png
+    instanceId: 6b5179a4-0512-436b-ae52-2a38e016bb30
+    comments:
+      - hdcs
+  - id: 1
+    name: Apple
+    class: apple
+    colour: Red
+    speciality: Rich in fiber
+    image: /src/assets/apple.png
+    instanceId: 80160ebf-5070-4251-8155-e1676850def8
+    comments:
+      - apple
+  - id: 2
+    name: Mango
+    class: mango
+    colour: Yellow
+    speciality: King of fruits
+    image: /src/assets/mango.png
+    instanceId: 287e4171-393e-45c4-a586-13106c3e2382
+    comments:
+      - yjg.l.km/lnjkgh
+  - id: 6
+    name: Pear
+    class: pear
+    colour: Green
+    speciality: Good for digestion
+    image: /src/assets/pear.png
+    instanceId: 799bc623-d32d-4d2b-b2f2-19cc625ea3de
+    comments:
+      - '1111'
+  - id: 5
+    name: Kiwi
+    class: kiwi
+    colour: Green
+    speciality: Boosts immunity
+    image: /src/assets/kiwi.png
+    instanceId: c718f76c-6611-44af-a4f7-c0657f1b0b64
+    comments: []
+  - id: 7
+    name: Grape
+    class: grape
+    colour: Purple
+    speciality: Rich in antioxidants
+    image: /src/assets/grape.png
+    instanceId: 11ef9b33-fbcc-4eaa-97fd-1ae7add00e25
+    comments: []
+  - id: 3
+    name: Orange
+    class: orange
+    colour: Orange
+    speciality: Vitamin C rich
+    image: /src/assets/orange.png
+    instanceId: ad46c415-8fa3-4e24-b64b-889246bdff57
+    comments: []
+  - id: 5
+    name: Kiwi
+    class: kiwi
+    colour: Green
+    speciality: Boosts immunity
+    image: /src/assets/kiwi.png
+    instanceId: 73d7675e-53ad-4e2d-a514-6f87effb8457
+    comments: []
+  - id: 6
+    name: Pear
+    class: pear
+    colour: Green
+    speciality: Good for digestion
+    image: /src/assets/pear.png
+    instanceId: fe033b60-5cfb-4bb0-8cfc-7b883344142d
+    comments:
+      - vvdh

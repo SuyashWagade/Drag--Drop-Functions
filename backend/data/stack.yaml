@@ -1,0 +1,50 @@
+fruits:
+  - id: 1
+    name: Apple
+    class: apple
+    colour: Red
+    speciality: Rich in fiber
+       comments:[]
+
+  - id: 2
+    name: Mango
+    class: mango
+    colour: Yellow
+    speciality: King of fruits
+       comments:[]
+
+  - id: 3
+    name: Orange
+    class: orange
+    colour: Orange
+    speciality: Vitamin C rich
+    comments:[]
+
+
+  - id: 4
+    name: Banana
+    class: banana
+    colour: Yellow
+    speciality: High potassium
+       comments:[]
+
+  - id: 5
+    name: Kiwi
+    class: kiwi
+    colour: Green
+    speciality: Boosts immunity
+       comments:[]
+
+  - id: 6
+    name: Pear
+    class: pear
+    colour: Green
+    speciality: Good for digestion
+       comments:[]
+
+  - id: 7
+    name: Grape
+    class: grape
+    colour: Purple
+    speciality: Rich in antioxidants
+       comments:[]
